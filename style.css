@@ -1,0 +1,270 @@
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ul{
+    display: flex;
+    line-height: 41px;
+}
+li{
+    list-style: none;
+}
+li a:hover{
+    color: orange;
+}
+li a{
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+}
+.formdki{
+    line-height: 64px;
+}
+.dki {
+    background: white;
+    color:#0066B2;
+    border:1px solid #0066B2;
+    padding: auto;
+}
+.dki a{
+    text-decoration: none;
+    color:#0066B2;
+}
+.dn {
+    background: white;
+    color:#0066B2;
+    border:1px solid #0066B2;
+    padding: auto;
+}
+.dn a{
+    text-decoration: none;
+    color:#0066B2;
+}
+.banner img{
+    max-width: 100%;
+}
+.p1{
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+}
+.show-more {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid orange;
+    width: 128px;
+    height: 30px;
+}
+.show-more a{
+    color: orange;
+    text-decoration: none;
+    line-height: 30px;
+}
+.boxgrid4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.box-grid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+.p2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+}
+.p3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #898989;
+}
+.box-grid3-child{
+    width: 400px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer ul{
+    float: right;
+    margin-right: 10%;
+}
+.logo{
+    margin-left: 10%;
+}
+.p1-danhmuc{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.p2-danhmuc{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+}
+.box-grid-sanpham{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 0px 10%;
+}
+.p-price{
+    color: #F54748;
+}
+.searchh{
+    position: relative;
+    margin-top: 20px;
+}
+.searchh img{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.input-search{
+    padding-left: 28px;
+    height: 32px;
+    width: 282px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.box-noidung-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 22px;
+}
+.box-noidung-child2{
+    width: 310px;
+}
+.box-grid2-ctsp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 50px 5%;
+}
+.img-ctsp img{
+    max-width: 100%;
+}
+.p1-ctsp{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+}
+.p2-ctsp{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+
+color: #F54748;
+}
+.p3-ctsp{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+.infor-ctsp input{
+    height: 31px;
+    border-radius: 8px;
+}
+.infor-ctsp button{
+    background-color: black;
+    color: white;
+    height: 37px;
+    border-radius: 8px;
+}
+.dangnhap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 15%;
+}
+.p-dangnhap{
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #37A9CD;
+}
+.form-dangnhap input{
+    border: 1px solid #37A9CD;
+    font-family: 'Inter',sans-serif;
+}
+.form-dangnhap{
+    text-align: left;
+}
+.dn-with-gg{
+    position: relative;
+}
+.dn-with-gg button{
+    padding: 14px 18px;
+    background: #2D3748;
+border-radius: 5px;
+color: white;   
+width: 277px;
+}
+.dn-with-gg img{
+    position: absolute;
+    top: 12px;
+    left: 14px;
+}
+.form-dangnhap input{
+    width: 256px;
+    border-radius: 7px;
+    padding: 8px 11px;
+}
+.dangnhap-in-form{
+    background: #37A9CD;
+    border-radius: 8px;
+    border: 0;
+    height: 47px;
+    color: white;
+    width: 276.99px;
+}
+.p-dangnhap1,.dangky-1{
+    text-decoration: none;
+    color:#37A9CD ;
+}
+.p-dangnhap1,.p-dangnhap2{
+    margin-left: 5%;
+}
+.p-dangnhap1{
+    margin: 18% ;
+}
+.form-dangky input{
+    border: 1px solid #F26F21;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px 6px;
+}
+.p-dangky{
+    color: #F26F21;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+}
+.form-dangky {
+    font-family: 'Inter',sans-serif;
+}
+.dangky-in-form{
+    background: #F26F21;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    width: 212px;
+    height: 33px;
+}

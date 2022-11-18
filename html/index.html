@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+            <!-- <?php
+            $connection = new PDO("mysql:host=localhost;dbname=we18103;charset=utf8","root","");
+            $query="SELECT *from Products";
+            $stml=$connection -> prepare ($query);
+            $stml -> execute();
+            $productList= $stml -> fetchAll();
+            echo "<pre>";
+            var_dump($productList);
+            ?>
+            <?php
+            foreach($productList as $product):
+            ?>
+            <?php var_dump($product)?>
+            <div>
+                <img src="<?php echo $product?>" alt="">
+                <h3></h3>
+            </div>
+            <?php endforeach?> -->
+    <div class="container">
+    <div class="menu">
+        <div class="logo"><img src="/imghome/image 1.png" alt=""></div>
+        <div class="boxmenu">
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="sanpham.html">Sản Phẩm</a></li>
+                <li><a href="chitietsp.html">Về Chúng Tôi</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </div>
+        <div class="formdki">
+            <button class="dki"><a href="dangnhap.html">Đăng Nhập</a></button>
+            <button class="dn"><a href="dangky.html">Đăng Ký</a></button>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="/imghome/1528 1.png" alt="">
+    </div>
+    <p class="p1">Our Products</p>
+    <div class="boxgrid4">
+        <div class="box-grid4-child">
+            <img src="/imghome/image 1 (1).png" alt="">
+            <p class="p2">Product 1</p>
+            <p class="p3">description 1</p>
+            <p class="p-price">$100</p>
+        </div>
+        <div class="box-grid4-child">
+            <img src="/imghome/image 5.png" alt="">
+            <p class="p2">Product 2</p>
+            <p class="p3">description 2</p>
+            <p class="p-price">$200</p>
+        </div>
+        <div class="box-grid4-child">
+            <img src="/imghome/image 4.png" alt="">
+            <p class="p2">Product 3</p>
+            <p class="p3">description 3</p>
+            <p class="p-price">$300</p>
+        </div>
+        <div class="box-grid4-child">
+            <img src="/imghome/image 7.png" alt="">
+            <p class="p2">Product 4</p>
+            <p class="p3">description 4</p>
+            <p class="p-price">$400</p>
+        </div>
+    </div>
+    <p class="show-more"><a href="#">Show More</a></p>
+    <p class="p1">Tips & Tricks</p>
+    <div class="box-grid3">
+        <div class="box-grid3-child">
+            <img src="/imghome/Rectangle 32 (3).png" alt="">
+            <p class="p2">How to create a living room to love</p>
+            <p class="p3">20 jan 2020</p>
+        </div>
+        <div class="box-grid3-child">
+            <img src="/imghome/Rectangle 32 (1).png" alt="">
+            <p class="p2">Solution for clean look working
+                space</p>
+            <p class="p3">10 jan 2020</p>
+        </div>
+        <div class="box-grid3-child">
+            <img src="/imghome/Rectangle 32 (2).png" alt="">
+            <p class="p2">Make your cooking activity 
+                more fun with good setup</p>
+            <p class="p3">20 jan 2020</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logo">
+            <img src="/imghome/image 1.png" alt="">
+        </div>
+        <div class="boxmenu">
+            <ul>
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Products</li>
+                <li><a href="#"></a>About Us</li>
+                <li><a href="#"></a>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
